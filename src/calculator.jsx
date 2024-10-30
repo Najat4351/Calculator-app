@@ -71,7 +71,7 @@ const handleoutput=value=>{
 return (<>
 <div className="all">
 
-  <img src="/history.png" alt="history" className="history" onClick={handledisplay}></img>
+  <img src="./history.png" alt="history" className="history" onClick={handledisplay}></img>
 
 <h4 className="display">
   
@@ -81,7 +81,7 @@ return (<>
   <div className="top">
   <button className="clear" onClick={clearHistories} >C</button>
   <button className="remainder"onClick={()=>handleoutput("%")}>%</button>
- <button onClick={handledelete}> <img src="/delete.png" className="delete"></img></button>
+ <button onClick={handledelete}> <img src="./delete.png" className="delete"></img></button>
   <button className="division" onClick={()=>handleoutput("÷")}>÷</button>
   </div>
   <div className="flex">
